@@ -1,6 +1,4 @@
-import qrcode
-
-#if not avaialble use " pip install qrcode Image"
+import qrcode  #if not avaialble use " pip install qrcode Image"
 
 def generate_qrcode(text):
     qr = qrcode.QRCode(
